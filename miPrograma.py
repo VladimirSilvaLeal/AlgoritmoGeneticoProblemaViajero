@@ -10,6 +10,8 @@ rta=[(180,60),(200,40),(160,20),(100,40),(60,20),(20,20),(20,40),(60,80),(40,120
 def graficar_plano(puntos):
     x_val = [x[0] for x in puntos]
     y_val = [x[1] for x in puntos]
+    x_val.append(puntos[0][0])
+    y_val.append(puntos[0][1])
     plt.figure(2)
     plt.plot(x_val,y_val)
     plt.plot(x_val,y_val,'or')
@@ -73,6 +75,8 @@ def Animar(mapa):
     for i in mapa:
         x_val = [x[0] for x in i]
         y_val = [x[1] for x in i]
+        x_val.append(i[0][0])
+        y_val.append(i[0][1])
         plt.cla()
         plt.plot(x_val,y_val)
         plt.plot(x_val,y_val,'or')
@@ -141,6 +145,7 @@ if __name__=="__main__": # Aqui se inicializa el programa
             b1=np.argmin(f1) # Calcula el indice (ubica el indice menor valor) de la menor distancia de los individuos de la poblacion. 
             ind_mem_b1=P1[b1] # Selecciona la mejor ruta dentro de la población
             fb1=aptitud(ind_mem_b1) # Calcula la menor distancia para la ruta total.
+            Mejores_mapas_ani.append(ind_mem_b1)
             if(fb1<fa1): # Si la nueva menor distancia calculada de la nueva poblacion es menor a la poblacion es menor a la distancia es menor a la distancia a la mejor distancia de la poblacion anterior
                 fa1=fb1
                 ind_mem_a1=ind_mem_b1
