@@ -1,0 +1,67 @@
+
+PASO #1 - Condiciones Iniciales.
+
+Importa las Librerias
+
+Lee la variable coordenadas
+
+Lee la variable rta
+
+Declara las 8 funciones
+
+Define las 9 variables del Entry Point if __name__=="__main__":
+
+Inicia la primera ejecucion en la linea 92 con el ----->     for j in range(Ejecuciones):   TENER EN CUENTA QUE SON SOLO 10 ITERACIONES DE ESTE
+
+
+
+
+
+
+Renombrar la variable puntos como CROMOSOMArenobrar a f, dentro de la funcion evaluar, como LISTA_DE_SUMATORIAS
+
+Renombrear a pop, dentro de la funcion evalular y funcion poblacion como MATRIZ_ALEATORIZADA
+
+
+puntos = CROMOSOMA
+dentro de def evaluar ---> f = LISTA_DE_SUMATORIAS
+pop = MATRIZ_ALEATORIZADA
+P0 = Poblacion_Inicial (Que guarda la la MATRIZ_ALEATORIZADA)
+
+apt = Lista de LISTA_DE_SUMATORIAS, 
+
+prop: probabilidad de cada uno de los elementos de la lista lista de sumatorias (distancias)
+
+El ciclo while simula la operacion de la ruleta al girarse.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
